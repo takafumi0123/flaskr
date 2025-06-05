@@ -176,6 +176,22 @@ input[type="submit"]:hover {
   background: var(--secondary-color);
 }
 
+/* Delete entry form styling */
+.delete-entry {
+  display: inline-block;
+  margin-top: 0.5em;
+}
+
+.delete-entry input[type="submit"] {
+  background: var(--accent-color);
+  font-size: 0.9em;
+  padding: 0.5em 1em;
+}
+
+.delete-entry input[type="submit"]:hover {
+  background: #c0392b;
+}
+
 /* Responsive adjustments */
 @media (max-width: 840px) {
   .page {
